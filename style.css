@@ -1,0 +1,155 @@
+#imagine
+{
+	position:relative;
+	height: 70%;
+	width: auto;
+	margin-left: 10%;
+	margin-top:20%;
+	transition: 3s transform;
+	z-index:2;
+}
+#cursor
+{
+	position:absolute;
+	border: solid red;
+  	border-width: 0 0.4vw 0.4vw 0;
+  	display: inline-block;
+  	top:17.5%;
+  	left:41.3%;
+  	padding: 0.7vw;
+  	transform: rotate(45deg);
+  	z-index:3;
+}
+#container
+{
+	margin-top:1%;
+	position:absolute;
+	border:1px solid black;
+	width:40%;
+	height:80%;
+	border-radius:2vw;
+	background-color:#d9fff8;
+	box-shadow: -2.5vw 0.33vw 1.2vw -0.20vw rgba(0,0,0,0.67);
+}
+#header
+{
+	width:95%;
+	height:6%;
+	padding-left:15%;
+}
+#button1
+{
+	height:100%;
+	width:7%;
+	font-size: 1.5vw;
+	font-family: Calibri;
+	padding: 0.2vw;
+	color:white;
+	border:0.2vw solid black;
+	background: linear-gradient(45deg, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%);
+}
+#button1:hover
+{
+	background: -webkit-linear-gradient(45deg, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%);
+	cursor: pointer;
+}
+#gamezone
+{
+	margin-top:1%;
+	left:44%;
+	position:absolute;
+	float:right;
+	border-radius: 2vw;
+	width:55%;
+	height:80%;
+	background-color: #62b6cb;
+}
+#inputPlayers{
+	position:relative;
+	height:50%;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	top:20%;
+	padding:3vw 3vw 3vw 3vw;
+	font-size:3vw;
+	color: #1b4965;
+	display:block;
+}
+#inputPlayers select
+{
+	margin-top:2%;
+	font-size:2vw;
+	background-color:#5fa8d3;
+	color: #1b4965;
+}
+#inputPlayers button
+{
+	margin-top:5%;
+	font-size:1vw;
+	background-color:#d9fff8;
+	border:0.2vw solid #1b4965;
+	padding:0.3vw 0.5vw 0.3vw 0.5vw;
+	color: #1b4965;
+}
+#inputPlayers button:hover
+{
+	background-color: #1b4965;
+	color:#d9fff8;
+	cursor:pointer;
+}
+
+#gamePlan
+{
+	position:relative;
+	height:50%;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	top:20%;
+	padding:3vw 3vw 3vw 3vw;
+	font-size:3vw;
+	color: #1b4965;
+	display:none;
+}
+
+#gameplan td
+{
+	color:black;
+	padding:0.3vw 0.6vw 0.3vw 0.6vw;
+	border: 0.3vw solid black;
+	font-size:2vw;
+}
+#textDisplay
+{
+	position:relative;
+	height:98%;
+	width:60%;
+	border:1px solid black;
+	float:right;
+	right:25%;
+	background-color:#d9fff8;
+	font-size: 2vw;
+}
+#firstcell{
+	background: linear-gradient(135deg, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+}
+#gameplan table tr:first-child td:not(:first-child)
+{
+	background-color:#ff7f04;
+}
+
+#gameplan table tr:not(:first-child) td:first-child
+{
+	background-color:#ffb76b;
+}
+
+#gameplan table tr:not(:first-child) td:not(:first-child)
+{
+	background-color:#FFB663;
+}
+body
+{
+	background-color:#1b4965;
+	padding: 2% 2% 2% 2%;
+}
